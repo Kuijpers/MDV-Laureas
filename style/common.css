@@ -1,0 +1,240 @@
+
+/* CSS Document */
+
+html, body {
+	text-align			:	center;
+	height				:	100%;
+	margin				:	0px;
+	padding				:	0px;
+	background-image	:	url(../images/body_bg.png);
+	background-repeat	:	repeat;
+}
+
+div.container{
+	width				:	955px;
+	height				:	100%;
+	position			:	relative;
+	margin				:	0px auto;
+	padding				:	0px;
+	float				:	none;
+	z-index				:	0;
+}
+
+div.anjer_left{
+	width				:	150px;
+	height				:	150px;
+	position			:	relative;
+	background-image	:	url(../images/anjer.png);
+	background-repeat	:	no-repeat;
+	margin-top			:	12px;
+	margin-left			:	-58px;
+	float				:	left;
+	z-index				:	2;
+}
+
+div.center{
+	width				:	955px;
+	min-height			:	100%;
+	height				:	auto;
+	position			:	relative;
+	background-image	:	url(../images/center_bg.png);
+	background-repeat	:	repeat-y;
+	margin-left			:	2.5px;
+	float				:	left;
+	z-index				:	0;
+}
+
+
+div.anjer_right{
+	width				:	150px;
+	height				:	150px;
+	background-image	:	url(../images/anjer.png);
+	background-repeat	:	no-repeat;
+	margin-top			:	-85px;
+	margin-right		:	-77px;
+	float				:	right;
+	z-index				:	2;
+}
+
+div.header{
+	width				:	955px;
+	height				:	175px;
+	position			:	relative;
+	position			:	fixed;
+	background-image	:	url(../images/header_bg.png);
+	background-repeat	:	repeat-y;
+	float				:	left;
+	z-index				:	0;
+	*margin-left		:	-931px;					/* IE HACK*/
+}
+
+div.menu_block{
+	width				:	912px;
+	height				:	65px;
+	position			:	relative;
+	background-image	:	url(../images/body_bg.png);
+	background-repeat	:	repeat;
+	margin-top			:	-92px;
+	margin-left			:	21px;
+	float				:	left;
+	z-index				:	0;
+	
+}
+
+div.logo{
+	width				:	210px;
+	height				:	170px;
+	margin-top			:	-60px;
+	margin-left			:	100px;
+	float				:	left;
+}
+
+div.textfield{
+	width				:	90%;
+	height				:	100%;
+	margin-left			:	5%;
+	margin-top			:	175px;
+	float				:	left;
+	text-align			:	justify;
+	color				:	#3B240B;
+	font-family:Arial narrow, Helvetica, sans-serif;
+}
+
+span.left{
+	width				:	auto;
+	height				:	auto;
+	margin				:	10px 10px 10px 10px;
+	float				:	left;
+}
+
+span.right{
+	width				:	auto;
+	height				:	auto;
+	margin				:	10px 10px 10px 10px;
+	float				:	right;
+}
+
+/* INDEX PAGINA*/
+
+#index div.anjer_left{
+	width				:	150px;
+	height				:	150px;
+	position			:	relative;
+	background-image	:	url(../images/anjer.png);
+	background-repeat	:	no-repeat;
+	margin-top			:	12px;
+	margin-left			:	-58px;
+	float				:	left;
+	z-index				:	2;
+}
+
+#index div.anjer_right{
+	width				:	150px;
+	height				:	150px;
+	background-image	:	url(../images/anjer.png);
+	background-repeat	:	no-repeat;
+	margin-top			:	-83px;
+	margin-right		:	-77px;
+	float				:	right;
+	z-index				:	2;
+}
+
+#index div.indexheader{
+	width				:	955px;
+	height				:	175px;
+	position			:	relative;
+	position			:	fixed;
+	float				:	left;
+	z-index				:	0;
+	*margin-left		:	-931px;					/* IE HACK*/
+}
+
+#index div.index_block{
+	width				:	912px;
+	height				:	65px;
+	position			:	relative;
+	margin-top			:	-92px;
+	margin-left			:	21px;
+	float				:	left;
+	z-index				:	0;
+}
+
+#index div.logo{
+	width				:	210px;
+	height				:	170px;
+	margin-top			:	-60px;
+	margin-left			:	125px;
+	float				:	left;
+}
+
+#index div.textfield{
+	width				:	90%;
+	height				:	100%;
+	margin-left			:	5%;
+	margin-top			:	175px;
+	float				:	left;
+	text-align			:	justify;
+	color				:	#3B240B;
+}
+
+#index div.index_select{
+	width				:	913px;
+	height				:	65px;
+	position			:	relative;
+	background-image	:	url(../images/body_bg.png);
+	background-repeat	:	repeat;
+	margin-left			:	-27px;
+	margin-top			:	50px;
+	float				:	left;
+	z-index				:	0;
+}
+
+#index img.logo{
+	width				:	auto;
+	height				:	auto;
+	float				:	left;
+	margin-left			:	205px;
+	margin-top			:	-125px;
+}
+
+#index div.flag_left{
+	width				:	80px;
+	height				:	50px;
+	margin-top			:	8px;
+	float				:	left;
+	display				:	block;
+	margin-left			:	170px;
+}
+
+#index div.flag_right{
+	width				:	80px;
+	height				:	50px;
+	margin-top			:	8px;
+	float				:	left;
+	display				:	block;
+	
+}
+
+#index div.text{
+	width				:	400px;
+	height				:	50px;
+	line-height			:	50px;
+	margin-top			:	8px;
+	float				:	left;
+	text-align			:	center;
+	font-family			:	Arial, Helvetica, sans-serif;
+	font-weight			:	bold;
+	color				:	#ffffff;
+	
+}
+
+#index img{
+	border				:	0;	
+}
+
+
+
+
+
+
+
